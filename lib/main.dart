@@ -24,7 +24,7 @@ import 'web_media_helper.dart';
 //  DESIGN TOKENS — "Dubverse Glow" dark minimal system
 // ─────────────────────────────────────────────────────────────────────────────
 class DV {
-  static const yellow = Color(0xFFFFD60A);
+  static const yellow = Color.fromARGB(255, 245, 206, 10);
   static const amber = Color(0xFFFFB000);
   static const orange = Color(0xFFFF7A1A);
   static const green = Color(0xFF32D74B);
@@ -582,7 +582,7 @@ class _DubbingScreenState extends State<DubbingScreen>
 //  SHARED VISUAL PIECES
 // ═════════════════════════════════════════════════════════════════════════════
 
-/// Black canvas with a faint grid and a soft spotlight (like the reference)
+/// Black canvas with a faint grid and a soft spotlight
 class _Backdrop extends StatelessWidget {
   final Pal pal;
   final Widget child;
